@@ -2,3 +2,17 @@
 
 *.properties
 *.mf
+/NumeroPar/nbproject/private/
+/NumeroPar/build/
+/OperadorTernario/nbproject/private/
+/OperadorTernario/build/
+/ComparacaoString/nbproject/private/
+/ComparacaoString/build/
+/OperadoresLogicos/nbproject/private/
+/OperadoresLogicos/build/
+/VerificarIdadeSwing/nbproject/private/
+/VerificarIdadeSwing/build/
+/ImparOuPar/nbproject/private/
+/ImparOuPar/build/
+/ImparOuParSwing/nbproject/private/
+/ImparOuParSwing/build/
