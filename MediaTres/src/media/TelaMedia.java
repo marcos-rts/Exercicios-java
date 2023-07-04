@@ -5,8 +5,9 @@
 package media;
 
 /**
- *
- * @author admin.zeus
+ * Data: 04/07/2023
+ * @author Marcos
+ * Exercicio: Calcular a média de três números
  */
 public class TelaMedia extends javax.swing.JFrame {
 
