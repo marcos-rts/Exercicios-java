@@ -5,8 +5,9 @@
 package impaoupar;
 
 /**
- *
- * @author admin.zeus
+ * Data: 02/07/2023
+ * @author Marcos
+ * Exercicio: Verificar se um número é par ou ímpar
  */
 public class TelaExibicao extends javax.swing.JFrame {
 
@@ -94,9 +95,9 @@ public class TelaExibicao extends javax.swing.JFrame {
 
     private void btnResulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResulActionPerformed
         // TODO add your handling code here:
-        int numero = Integer.parseInt(txtNumero.getText());
-        String resultado = ((numero % 2) == 0)?"PAR":"IMPAR";
-        lblResul.setText(resultado);
+        int numero = Integer.parseInt(txtNumero.getText()); //recebe o valor da caixa
+        String resultado = ((numero % 2) == 0)?"PAR":"IMPAR"; //faz o calculo para saber se é impar ou par
+        lblResul.setText(resultado); // exprta o resultado para a caixa
         
         saitama.setVisible(true); //exibir imagen
     }//GEN-LAST:event_btnResulActionPerformed
